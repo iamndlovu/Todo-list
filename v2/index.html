@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Todo App</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+	<meta name="Author" content="Pardon-Ndlovu">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<header>
+		<h1>Todo App 2.0.0</h1>
+		<nav>
+			<h4 id="home">Home</h4>
+			<h4 id="mits">MITs</h4>
+		</nav>
+	</header>
+	<main>
+	<section class="home">
+		<h3>Todos</h3>
+		<form class="add" action="#">
+			<input type="text" class="newTodo form-control" placeholder="Add new Todo" required />
+			<textarea name="message" placeholder="description" class="tdescription form-control"></textarea>
+			<input type="submit" value="Add" class="submit btn btn-primary" />
+		</form>
+		<ul class="todo-list">
+			<li><h3>Todo List</h3></li>
+		</ul><!--
+		<ul class="doing btn-primary">
+			<li><h3>Doing</h3></li>
+		</ul>
+		<ul class="done btn-success">
+			<li><h3>Done</h3></li>
+		</ul>-->
+	</section>
+	<section class="mits">
+			<h3>MITs</h3>
+		<form class="addMIT" action="#">
+			<input type="text" class="newMIT form-control" placeholder="Add new MIT" required />
+			<textarea placeholder="description" class="MITdescription form-control"></textarea>
+			<input type="submit" value="Add" class="submit btn btn-primary" />
+		</form>
+		<ul class="mit-list">
+			<li><h3>MIT List</h3></li>
+		</ul>
+	</section>
+	</main>
+	<footer>
+		<div class="copy">&copy; 2020 iamndlovu</div>
+	</footer>
+</body>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+<script src="../../encryptah/js/encrypt.js"></script>
+</html>

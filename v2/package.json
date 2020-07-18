@@ -1,0 +1,11 @@
+{
+  "name": "todo-app",
+  "version": "2.0.0",
+  "description": "store and display todo list and Most Important Tasks(MITs)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "iamndlovu",
+  "license": "MIT"
+}
